@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="kVoshB" name="ZenTermKeyFind" projectType="consoleapp" version="0.0.1"
+              bundleIdentifier="com.soniczentropy.ZenTermKeyFind" includeBinaryInAppConfig="1"
+              jucerVersion="4.1.0" companyName="Sonic Zentropy" companyWebsite="https://www.soniczentropy.com"
+              companyEmail="zen@soniczentropy.com" defines="ZEN_DEBUG" userNotes="Debug-D:\Workspace\Cpp\JUCE\JUCE\examples\audio plugin host\Builds\VisualStudio2015\x64\Debug x64\Plugin Host.exe&#10; DebugBitwig - Z:\Bitwig Studio\bin\x64\BitwigPluginHost64.exe &#10;Release - D:\Workspace\Cpp\JUCE\JUCE\examples\audio plugin host\Builds\VisualStudio2015\x64\Debug x64\Plugin Host.exe">
+  <MAINGROUP id="M9O51r" name="ZenTermKeyFind">
+    <GROUP id="{49AF19DE-674B-C899-780A-E09F7294668F}" name="Source">
+      <GROUP id="{BB9D8D3E-069E-D873-70A2-8BB7D076CA3F}" name="AudioFileReaders">
+        <FILE id="Ep05YZ" name="JUCEAudioFormatReader.cpp" compile="1" resource="0"
+              file="Source/AudioFileReaders/JUCEAudioFormatReader.cpp"/>
+        <FILE id="poD45n" name="JUCEAudioFormatReader.h" compile="0" resource="0"
+              file="Source/AudioFileReaders/JUCEAudioFormatReader.h"/>
+        <FILE id="otJbwZ" name="LibSndFileAudioFormatReader.cpp" compile="1"
+              resource="0" file="Source/AudioFileReaders/LibSndFileAudioFormatReader.cpp"/>
+        <FILE id="WL9gzl" name="LibSndFileAudioFormatReader.h" compile="0"
+              resource="0" file="Source/AudioFileReaders/LibSndFileAudioFormatReader.h"/>
+      </GROUP>
+      <GROUP id="{4AACE624-0139-E389-B4F0-2139D992174F}" name="libKeyFinder">
+        <FILE id="UoqNeg" name="audiodata.cpp" compile="1" resource="0" file="Source/libKeyFinder/audiodata.cpp"/>
+        <FILE id="DZivWw" name="audiodata.h" compile="0" resource="0" file="Source/libKeyFinder/audiodata.h"/>
+        <FILE id="XhL6Bg" name="binode.h" compile="0" resource="0" file="Source/libKeyFinder/binode.h"/>
+        <FILE id="LmX602" name="chromagram.cpp" compile="1" resource="0" file="Source/libKeyFinder/chromagram.cpp"/>
+        <FILE id="OVikqc" name="chromagram.h" compile="0" resource="0" file="Source/libKeyFinder/chromagram.h"/>
+        <FILE id="KCRYhJ" name="chromatransform.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/chromatransform.cpp"/>
+        <FILE id="FrDpBD" name="chromatransform.h" compile="0" resource="0"
+              file="Source/libKeyFinder/chromatransform.h"/>
+        <FILE id="vFk4Ug" name="chromatransformfactory.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/chromatransformfactory.cpp"/>
+        <FILE id="rdfkrg" name="chromatransformfactory.h" compile="0" resource="0"
+              file="Source/libKeyFinder/chromatransformfactory.h"/>
+        <FILE id="yyNPOx" name="constants.cpp" compile="1" resource="0" file="Source/libKeyFinder/constants.cpp"/>
+        <FILE id="U0UGYd" name="constants.h" compile="0" resource="0" file="Source/libKeyFinder/constants.h"/>
+        <FILE id="qo2Dk1" name="exception.h" compile="0" resource="0" file="Source/libKeyFinder/exception.h"/>
+        <FILE id="Xjb5gg" name="fftadapter.cpp" compile="1" resource="0" file="Source/libKeyFinder/fftadapter.cpp"/>
+        <FILE id="D7eS6k" name="fftadapter.h" compile="0" resource="0" file="Source/libKeyFinder/fftadapter.h"/>
+        <FILE id="f6VSzo" name="keyclassifier.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/keyclassifier.cpp"/>
+        <FILE id="UoE769" name="keyclassifier.h" compile="0" resource="0" file="Source/libKeyFinder/keyclassifier.h"/>
+        <FILE id="n4AmCV" name="keyfinder.cpp" compile="1" resource="0" file="Source/libKeyFinder/keyfinder.cpp"/>
+        <FILE id="OqnOD3" name="keyfinder.h" compile="0" resource="0" file="Source/libKeyFinder/keyfinder.h"/>
+        <FILE id="tpB7Kb" name="lowpassfilter.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/lowpassfilter.cpp"/>
+        <FILE id="Tb7CBq" name="lowpassfilter.h" compile="0" resource="0" file="Source/libKeyFinder/lowpassfilter.h"/>
+        <FILE id="PI7FJ7" name="lowpassfilterfactory.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/lowpassfilterfactory.cpp"/>
+        <FILE id="ECvQpG" name="lowpassfilterfactory.h" compile="0" resource="0"
+              file="Source/libKeyFinder/lowpassfilterfactory.h"/>
+        <FILE id="biKsBK" name="spectrumanalyser.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/spectrumanalyser.cpp"/>
+        <FILE id="N6ZQmb" name="spectrumanalyser.h" compile="0" resource="0"
+              file="Source/libKeyFinder/spectrumanalyser.h"/>
+        <FILE id="Bi7UFA" name="temporalwindowfactory.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/temporalwindowfactory.cpp"/>
+        <FILE id="n6FDa8" name="temporalwindowfactory.h" compile="0" resource="0"
+              file="Source/libKeyFinder/temporalwindowfactory.h"/>
+        <FILE id="uK00pj" name="toneprofiles.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/toneprofiles.cpp"/>
+        <FILE id="h4k8tA" name="toneprofiles.h" compile="0" resource="0" file="Source/libKeyFinder/toneprofiles.h"/>
+        <FILE id="JE0pmF" name="windowfunctions.cpp" compile="1" resource="0"
+              file="Source/libKeyFinder/windowfunctions.cpp"/>
+        <FILE id="NBm69O" name="windowfunctions.h" compile="0" resource="0"
+              file="Source/libKeyFinder/windowfunctions.h"/>
+        <FILE id="jH8hmp" name="workspace.cpp" compile="1" resource="0" file="Source/libKeyFinder/workspace.cpp"/>
+        <FILE id="dAohtZ" name="workspace.h" compile="0" resource="0" file="Source/libKeyFinder/workspace.h"/>
+      </GROUP>
+      <FILE id="vnIIlb" name="KeyNotationConversions.hpp" compile="0" resource="0"
+            file="Source/KeyNotationConversions.hpp"/>
+      <FILE id="k66tpp" name="SingleAudioFileForAnalysis.cpp" compile="1"
+            resource="0" file="Source/SingleAudioFileForAnalysis.cpp"/>
+      <FILE id="jYjEWL" name="SingleAudioFileForAnalysis.h" compile="0" resource="0"
+            file="Source/SingleAudioFileForAnalysis.h"/>
+      <FILE id="WBv3jh" name="AudioAnalysisManager.cpp" compile="1" resource="0"
+            file="Source/AudioAnalysisManager.cpp"/>
+      <FILE id="uwJJ7L" name="AudioAnalysisManager.h" compile="0" resource="0"
+            file="Source/AudioAnalysisManager.h"/>
+      <FILE id="mGFK9P" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" extraCompilerFlags="/wd4100&#10;/wd4189&#10;/wd4244&#10;/wd4458&#10;/wd4456&#10;/wd4302&#10;/wd4312&#10;/wd4311&#10;/wd4244&#10;/wd4305&#10;">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="ZenTermKeyFind" postbuildCommand=""/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="ZenTermKeyFind" postbuildCommand=""/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="ZenTermKeyFind"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="ZenTermKeyFind"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="ZenTermKeyFind"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="ZenTermKeyFind"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
